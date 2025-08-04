@@ -27,6 +27,7 @@ typedef union {
 /**
  * @brief Con trỏ hàm actuator, nhận vào địa chỉ struct Door cần thao tác.
  */
+struct Door;
 typedef void (*ActuatorFunc)(struct Door*);
 
 /**

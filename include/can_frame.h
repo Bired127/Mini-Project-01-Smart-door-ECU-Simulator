@@ -36,4 +36,4 @@ void packDoorStatus(Door *doors, CANFrame_t *frame);
  */
 void unpackDoorStatus(CANFrame_t* frame, Door* doors);
 
- #endif // CAN_FRAME_H
+#endif // CAN_FRAME_H
